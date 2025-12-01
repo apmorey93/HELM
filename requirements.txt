@@ -1,0 +1,19 @@
+"""
+Requirements for HELM Experiments.
+
+All dependencies are open-source and free.
+No API keys or proprietary services required.
+"""
+
+torch>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+
+# For Experiment 3 (MiniGrid)
+# Note: minigrid may require specific gym version
+gym>=0.26.0
+minigrid>=2.0.0
+
+# Optional but recommended
+tqdm>=4.65.0
